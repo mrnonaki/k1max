@@ -66,3 +66,16 @@ channel = beta
 repo = mainsail-crew/mainsail
 path = /usr/data/mainsail
 
+[webcam chassis]
+enabled = True
+location = printer
+service = mjpegstreamer
+target_fps = 15
+target_fps_idle = 5
+stream_url = /webcam/?action=stream
+snapshot_url = /webcam/?action=snapshot
+flip_horizontal = False
+flip_vertical = False
+rotation = 0
+aspect_ratio = 16:9
+
