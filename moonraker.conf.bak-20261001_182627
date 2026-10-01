@@ -106,16 +106,3 @@ path: /usr/data/mainsail
 #requirements: scripts/mobileraker-requirements.txt
 #install_script: scripts/install.sh
 #managed_services: mobileraker
-
-[webcam chassis]
-enabled: True
-location: printer
-service: mjpegstreamer
-target_fps: 15
-target_fps_idle: 5
-stream_url: /webcam/?action=stream
-snapshot_url: /webcam/?action=snapshot
-flip_horizontal: False
-flip_vertical: False
-rotation: 0
-aspect_ratio: 16:9
